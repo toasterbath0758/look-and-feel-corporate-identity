@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Arial-BoldMT";
-    src: url("Fonts/Arial-BoldMT.ttf");
+    src: url("Fonts/BuurtCampusArial-Bold.ttf");
 }
 
 @font-face {
@@ -19,95 +19,14 @@
     max-width: 75ch;
 }
 
-/* .blockquote-oranje {
-    max-width: 25ch;
-    font-family: arial, Arial-BoldMT;
-    background-color: orange;
-    color: white;
-    justify-self: center;
-    text-align: center;
-    font-size: xx-large;
-    font-style: oblique;
-    font-weight: 600;
-    margin: 2em 0 2em 0;
-    padding: 1em;
-    border-radius: 100px;
-} */
-
-/* .figCaption {
-    font-size: 0.7em;
-    font-family: arial;
-    padding-bottom: 1.5em;
-} */
-
-/* .logo {
-    width: 105px
-} */
-
 .logoLang {
     height: 1.2em;
-
 }
 
 /* knoppen in de nav */
 .navKnop.primary-color-oost {
     font-size: var(--font-size-m);
 }
-
-/* li {
-    list-style: none;
-}
-
-li a {
-    text-decoration: none;
-    padding: 0.5em;
-    padding-right: 1rem;
-} */
-
-/* Nav */
-/* a {
-    font-size: 0.8em;
-    font-family: Arial;
-    font-weight: bold;
-    display: block;
-} */
-
-/* title */
-/* h1 {
-    font-size: 18pt;
-    font-family: Arial;
-    font-weight: lighter;
-} */
-
-/* het woord krant in onder het logo */
-/* h6 {
-    font-size: 1.54em;
-    font-family: BuurtCampusArial-Bold;
-    color: rgb(51 52 103);
-    line-height: 0.6em;
-} */
-
-/* basic text */
-/* p {
-    font-size: 1em;
-    font-family: arial;
-    padding-bottom: 1.5em;
-} */
-
-/* platte text bold */
-/* p.intro {
-    font-size: 1em;
-    font-family: Arial;
-    font-weight: bold;
-    padding-bottom: 0.5em;
-} */
-
-/* text bold */
-/* .bold {
-    font-weight: bold;
-    display: block;
-} */
-
 
 /* title vertical */
 .sideTitle {
@@ -151,7 +70,9 @@ li a {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 
-    @media (min-width: 480px) {}
+    @media (min-width: 480px) {
+        
+    }
 }
 
 header>div {
