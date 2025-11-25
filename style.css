@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "Arial-BoldMT";
+    src: url("Fonts/Arial-BoldMT.ttf");
+}
+
+@font-face {
+    font-family: "BuurtCampusArial-Bold";
+    src: url("Fonts/BuurtCampusArial-Bold.ttf");
+}
+
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+.article-container {
+    max-width: 75ch;
+}
+
+/* .blockquote-oranje {
+    max-width: 25ch;
+    font-family: arial, Arial-BoldMT;
+    background-color: orange;
+    color: white;
+    justify-self: center;
+    text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
+    font-weight: 600;
+    margin: 2em 0 2em 0;
+    padding: 1em;
+    border-radius: 100px;
+} */
+
+/* .figCaption {
+    font-size: 0.7em;
+    font-family: arial;
+    padding-bottom: 1.5em;
+} */
+
+/* .logo {
+    width: 105px
+} */
+
+.logoLang {
+    height: 1.2em;
+
+}
+
+/* knoppen in de nav */
+.navKnop.primary-color-oost {
+    font-size: var(--font-size-m);
+}
+
+/* li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    padding: 0.5em;
+    padding-right: 1rem;
+} */
+
+/* Nav */
+/* a {
+    font-size: 0.8em;
+    font-family: Arial;
+    font-weight: bold;
+    display: block;
+} */
+
+/* title */
+/* h1 {
+    font-size: 18pt;
+    font-family: Arial;
+    font-weight: lighter;
+} */
+
+/* het woord krant in onder het logo */
+/* h6 {
+    font-size: 1.54em;
+    font-family: BuurtCampusArial-Bold;
+    color: rgb(51 52 103);
+    line-height: 0.6em;
+} */
+
+/* basic text */
+/* p {
+    font-size: 1em;
+    font-family: arial;
+    padding-bottom: 1.5em;
+} */
+
+/* platte text bold */
+/* p.intro {
+    font-size: 1em;
+    font-family: Arial;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+} */
+
+/* text bold */
+/* .bold {
+    font-weight: bold;
+    display: block;
+} */
+
+
+/* title vertical */
+.sideTitle {
+    font-size: 28pt;
+    font-family: BuurtCampusArial-Bold;
+    font-weight: 300;
+    writing-mode: vertical-rl;
+    rotate: 180deg;
+    align-items: center;
+    white-space: nowrap;
+    display: flex;
+    float: left;
+    padding: 0.5em 0 0.5em 0.5em;
+}
+
+/* naam van buurt met vlaggetje links boven in pagina */
+.headerBuurtTitle {
+    font-family: BuurtCampusArial-Bold;
+    clip-path: polygon(90% 0, calc(100% - 1.5em) 50%, 90% 100%, 0 100%, 0 0);
+    background-color: var(--color-3);
+    color: white;
+    padding: 0.1em 2.5em 0.1em 0.5em;
+    width: max-content;
+}
+
+/* header {
+    display: flex;
+    grid-column: span 2;
+    background-color: RGB(180 189 208);
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    gap: 1.5em;
+    padding: 1em 1em 0.5em 1em;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.BuurtCampusLogoHeader {
+    justify-self: left;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+    @media (min-width: 480px) {}
+}
+
+header>div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+@media (min-width: 480px) {
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr max-content 1fr;
+        width: 100%;
+        padding: 1em;
+        /* place-items: center start; */
+    }
+}
+
+main {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    @media (min-width: 500px) {
+        padding: 2em 4em 2em 4em;
+    }
+}
+
+body {
+    width: 100%;
+}
