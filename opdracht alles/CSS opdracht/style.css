@@ -29,6 +29,8 @@ header {
     }
 }
 
+header
+
 .logo {
     width: 190px;
     object-fit: contain;
@@ -50,11 +52,31 @@ header {
     }
 }
 
+button {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+    width: fit-content;
+    font-size: 1rem;
+}
+
 /* knoppen in de nav */
-.navKnop {
+/* .navKnop {
     display: grid;
     font-size: var(--font-size-m);
-    color: var(--color3);
+    padding-right: 2rem;
+    translate: 0 0;
+    padding: 0.1em 2em 0.1em 0.5em;
+
+    @media (max-width: 950px) {
+        display: none;
+        grid-column-start: 3;
+    }
+} */
+
+#navKnop {
+    display: grid;
+    font-size: var(--font-size-m);
     padding-right: 2rem;
     translate: 0 0;
     padding: 0.1em 2em 0.1em 0.5em;
@@ -65,21 +87,35 @@ header {
     }
 }
 
-#navListMobile {
-    padding: 0 0 0 0;
-    display: grid;
-    gap: 0em;
-    justify-content: center;
-    translate: center;
+
+#navKnop:active {
+    clip-path: polygon(90% 0, calc(95% - 1.5em) 50%, 90% 100%, 0 100%, 0 0);
+    background-color: var(--color-white);
+}
+
+#navKnop:hover,
+#navKnop:focus-visible {
+    clip-path: polygon(90% 0, calc(95% - 1.5em) 50%, 90% 100%, 0 100%, 0 0);
+    background-color: var(--color-white);
+}
+
+#navKnop.primary-color-zuidoost:active {
+    clip-path: polygon(90% 0, calc(95% - 1.5em) 50%, 90% 100%, 0 100%, 0 0);
+    color: var(--color2);
+}
+
+#navKnop.primary-color-zuidoost:hover,
+#navKnop.primary-color-zuidoost:focus-visible {
+    clip-path: polygon(90% 0, calc(95% - 1.5em) 50%, 90% 100%, 0 100%, 0 0);
+    color: var(--color2);
 }
 
 .buttonMenu {
-    background-color: var(--color3);
-    color: var(--color6);
+    color: inherit;
     border: none;
     font-size: 2rem;
+    background-color: transparent;
 }
-
 .navBar {
     grid-column-start: 2;
     grid-row-start: 1;
@@ -88,6 +124,7 @@ header {
 #hamburgerMenuKnop {
     display: none;
     margin: 0 1.5em 0 1.5em;
+    font-weight: bold;
 
     @media (min-width: 460px) {
         grid-column-start: 3;
@@ -99,13 +136,21 @@ header {
     }
 }
 
+#navListMobile {
+    list-style: none;
+    padding: 0 0 0 0;
+    display: grid;
+    gap: 0em;
+    justify-content: center;
+    translate: center;
+}
+
 #mobileNav {
     grid-column-start: 3;
     display: none;
     width: 100%;
     height: 100%;
     position: fixed;
-    background: var(--color-paars-blauw);
     left: 0;
     top: 0;
     z-index: 999;
@@ -115,35 +160,28 @@ header {
     display: block;
 }
 
-.mobileNavKnop {
-    color: var(--color-white);
+#mobileNavKnop {
+    /* color: var(--color-white); */
     padding-right: 3em;
-
+    color: inherit;
 }
 
-.mobileNavKnop:hover,
-.mobileNavKnop:focus-visible {
-    background-color: var(--color-white);
-    color: var(--color-paars-blauw);
+#mobileNavKnop:hover,
+#mobileNavKnop:focus-visible {
     clip-path: polygon(90% 0, calc(95% - 1.5em) 50%, 90% 100%, 0 100%, 0 0);
-}
-
-.navKnop:active {
-    color: var(--color-paars-blauw);
     background-color: var(--color-white);
-    clip-path: polygon(90% 0, calc(95% - 1.5em) 50%, 90% 100%, 0 100%, 0 0);
 }
 
-.article-container {
-    max-width: 75ch;
+
+
+#article-container {
+    max-width: 65ch;
 }
 
-.logoLang {
-    height: 1.2em;
-}
+
 
 /* knoppen in de nav */
-.navKnop.primary-color-oost {
+.navKnop {
     font-size: var(--font-size-m);
 }
 
@@ -169,21 +207,21 @@ header {
 }
 
 /* naam van buurt met vlaggetje links boven in pagina */
-.headerBuurtTitle {
+#headerBuurtTitle {
     font-family: BuurtCampusArial-Bold;
     clip-path: polygon(90% 0, calc(100% - 1.5em) 50%, 90% 100%, 0 100%, 0 0);
-    background-color: var(--color-3);
-    color: white;
     padding: 0.1em 2.5em 0.1em 0.5em;
     width: max-content;
+    align-content: start;
 }
 
 main {
     justify-self: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
     padding: 0.5em 1.5em 0.5em 1.5em;
-    max-width: 1080px;
+    max-width:800;
 }
 
 body {
@@ -193,18 +231,20 @@ body {
 #footer {
     width: 100%;
     background-color: var(--color-lucht-blauw);
+    padding: 1em 0 1em 0;
 }
-
 
 .formulierFooter {
     width: 50%;
     justify-items: center;
-    
 }
 
 .contact-form {
     border-radius: 0%;
     width: 100%;
-    
+}
 
+fieldset {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
 }
