@@ -10,7 +10,7 @@ Een online versie van de Buurtcampuskrant.
 
 ## Beschrijving
 Het project heeft een krant ‘look and feel’.
-De header heeft een blijvende navigatiebalk waardoor je op elk moment naar verschillende onderdelen van onze website kunt gaan.
+De header heeft een blijvende navigatiebalk waardoor je op elk moment naar verschillende onderdelen van mijn website kunt gaan.
 er zijn op het moment 2 paginas.
 <hr>
 <img width="1904" height="910" alt="image" src="https://github.com/user-attachments/assets/d18ec8f4-e89b-47c7-bcaf-286d1ed510d8" />
@@ -21,14 +21,12 @@ er zijn op het moment 2 paginas.
 De website is gebouwd met HTML en CSS.
 de css heeft de styling van de huisstijl van de BuurtCampusKrant
 interessante dingen die ik heb toegevoegd:
-https://github.com/toasterbath0758/all-human-accessible-website/blob/970553d5e9714ffccb13da889ada8f39069678d5/style.css#L73-L79
 ik heb met een clipper een vlaggetje gemaakt die zichtbaar wordt als je over de nav hovert!
 <hr>
 
 ### HTML
 Hieronder staat de basis structuur uitgelegd met de setting in de HEAD en opmaak van de BODY:
 In de <head> wordt een CSS file geladen. De styling van de HTML wordt via de CSS file bepaald.
-https://github.com/toasterbath0758/all-human-accessible-website/blob/970553d5e9714ffccb13da889ada8f39069678d5/index.html#L7
 <hr>
 
 ### Body
