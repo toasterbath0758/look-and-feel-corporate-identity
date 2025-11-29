@@ -38,7 +38,7 @@ In de header staat de navigatiebalk met links naar verschillende onderdelen van 
 ## Main
 in de main staat alle text en alle images
 ## Footer
-mijn site heeft nog geen footer!
+mijn site een form in de footer staan waar je nieuws van jouw buurt kan opsturen
 
 <hr>
 
