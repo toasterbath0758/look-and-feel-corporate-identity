@@ -13,7 +13,7 @@ Het project heeft een krant ‘look and feel’.
 De header heeft een blijvende navigatiebalk waardoor je op elk moment naar verschillende onderdelen van onze website kunt gaan.
 er zijn op het moment 2 paginas.
 <hr>
-<img width="1915" height="885" alt="image" src="https://github.com/user-attachments/assets/befed4aa-69a2-41d2-b692-154adf530822" />
+<img width="1904" height="910" alt="image" src="https://github.com/user-attachments/assets/d18ec8f4-e89b-47c7-bcaf-286d1ed510d8" />
 
 
 
