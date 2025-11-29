@@ -74,6 +74,7 @@ De website http://127.0.0.1:5501/index.html heeft enkele toegankelijkheidsproble
 **Kleurcontrast Het contrast tussen de achtergrond- en tekstkleuren is voldoende. → geen veranderingen nodig.
 
 **Aanraakdoelen De klikbare elementen zijn te klein en staan te dicht op elkaar. → Oplossing: meer ruimte toevoegen tussen de aanraakdoelen (bijvoorbeeld met extra padding).
+
 <img width="640" height="787" alt="image" src="https://github.com/user-attachments/assets/54c5e915-3e6a-498e-8dd2-2061c58e90f6" />
 
 **Formulierelementen hebben geen duidelijke naam → Oplossing: geef de formulierelementen een duidelijkere naam
